@@ -9,4 +9,4 @@ $timestamp = Get-Date -Format 'yyyyMMddHHmmss'
 $deploymentName = "MyDeploment-$timestamp"
 
 # Deploy the template using the Azure PowerShell module
-New-AzResourceGroupDeployment -Name $deploymentName -ResourceGroupName $rgName -TemplateFile 'C:\Users\workshop\Git\templates\template.bicep'
+New-AzResourceGroupDeployment -Name $deploymentName -ResourceGroupName $ResourceGroupName -TemplateFile 'C:\Users\workshop\Git\templates\template.bicep'
